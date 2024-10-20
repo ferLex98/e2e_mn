@@ -27,26 +27,28 @@ Sigue estos pasos para configurar tu entorno de trabajo:
 
 - Clonar el Repositorio:
 Clona el repositorio desde GitHub con el siguiente comando:
-	git clone
+	git clone https://github.com/ferLex98/e2e_mn.git
 - Acceder al Proyecto:
 Ve al directorio raíz del proyecto:
-	cd path/
+	cd path/e2e_mn/
 - Construir el Proyecto:
 Ejecuta el siguiente comando para limpiar y construir el proyecto:
 	./gradlew clean build
+
 #3. CONSTRUCCIÓN Y EJECUCIÓN
+
 Existen dos formas principales para ejecutar las pruebas:
 
 - Desde la Terminal:
-Ejecuta el siguiente comando en la raíz del proyecto para realizar la construcción y ejecutar las pruebas:
+    * Ejecuta el siguiente comando en la raíz del proyecto para realizar la construcción y ejecutar las pruebas:
 
 	./gradlew clean build
 
 - Desde IntelliJ IDEA:
-* Abre el proyecto en IntelliJ IDEA.
-* Dirígete al panel de herramientas de Gradle (ubicado en la parte superior derecha).
-* Se listarán las tareas disponibles.
-* Ejecuta la tarea RunnerTest para iniciar la ejecución de las pruebas.
+    * Abre el proyecto en IntelliJ IDEA.
+    * Dirígete al panel de herramientas de Gradle (ubicado en la parte superior derecha).
+    * Se listarán las tareas disponibles.
+    * Ejecuta la tarea RunnerTest para iniciar la ejecución de las pruebas.
 
 #4. VISUALIZACIÓN DE RESULTADOS
 
