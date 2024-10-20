@@ -1,0 +1,43 @@
+#---------------Resultados de Pruebas Automatizadas---------------
+
+#1.-Introducción
+
+En el siguiente proyecto se encuentra el caso de prueba: "Compra de dos productos con Login", realizado al sitio web "saucedemo.com", las
+cuales abarcaron desde el inicio de sesión hasta la confirmación de la transacción.
+Los resultados indican un rendimiento adecuado del sistema sin embargo existen aspectos que se pueden mejorar.
+
+#2.-Aspectos Evaluados en las Pruebas
+
+#2.1. Inicio de Sesión y Seguridad
+
+- Verificación: El sistema de autenticación fue evaluado para garantizar la seguridad y eficiencia al iniciar sesión.
+- Resultados: El proceso de login se realizó sin inconvenientes, ademas de mostrar los mensajes adecuados.
+- Mejoras posibles: Control de sesiones.
+
+#2.2. Navegación y Selección de Productos
+
+- Verificación: Se revisó la capacidad de los usuarios para navegar y seleccionar productos del catálogo de manera eficiente.
+- Resultados: El flujo de navegación fue claro y los productos se pudieron añadir al carrito de forma correcta.
+
+#2.3. Gestión del Carrito de Compras
+
+- Verificación: Se probó la funcionalidad del carrito para asegurar que los productos seleccionados se mostraran correctamente.
+- Resultados: El carrito reflejó correctamente la cantidad y el precio de los productos seleccionados.
+- Comentario: No se evidencia que se eliminen los productos, una vez que la compra se ha completado.
+
+#2.4. Proceso de Pago y Revisión del Pedido
+
+- Verificación: Se evaluaron los formularios de pago y la revisión final del pedido antes de la confirmación.
+- Resultados: El formulario de pago aceptó la información del usuario (nombre, dirección, pago) sin errores.
+- Detalles adicionales: El desglose de costos se mostró de manera clara y precisa en la pantalla de resumen de compra.
+
+2.5. Confirmación de la Compra
+
+- Verificación: Se evaluó la finalización del proceso de compra y el mensaje de confirmación.
+- Resultados: El sitio web generó una confirmación instantánea de la orden, mostrando el mensaje "Thank you for your order!"
+ al concluir el proceso.
+
+#3.- Conclusión Final
+Las pruebas realizadas confirman que la plataforma de e-commerce "Saucemo" cumple con los requisitos para proporcionar una experiencia
+de compra eficiente, sin embargo deberían trabajarse un poco mas en aspectos de seguridad, ya que no existe un manejo adecuado de tokens
+una vez que se finaliza la compra.
